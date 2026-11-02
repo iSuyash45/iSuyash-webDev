@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cyberpunk Homepage</title>
+    <title>iSuyash45</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,10 +53,14 @@
 
         .info {
             width: 100%;
+            min-height: 100vh;
+            min-height: 100dvh;
+
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 200px;
+            justify-content: center;
+
             padding: 0 15px;
         }
 
@@ -68,13 +72,6 @@
             font-weight: 700;
             text-shadow: 0 0 15px rgba(255, 239, 0, 0.5);
         }
-/* 
-        .time h1 {
-            border: 2px solid #5ed7f2;
-            padding: 10px 20px;
-            border-radius: 8px;
-            letter-spacing: 3px;
-        } */
 
         .date {
             color: #5ed7f2;
@@ -160,10 +157,6 @@
         /* Large screens */
 
         @media screen and (min-height: 722px) {
-            .info {
-                margin-top: 250px;
-            }
-
             .cyberpunk img {
                 width: 500px;
             }
@@ -172,9 +165,6 @@
         /* Mobile */
 
         @media screen and (max-width: 600px) {
-            .info {
-                margin-top: 100px;
-            }
 
             .time {
                 font-size: 25px;
@@ -255,91 +245,93 @@
 
         <!-- App shortcuts -->
 
-    <div class="flex-apps_container">
+        <div class="flex-apps_container">
 
-        <div class="flex-apps">
-            <a href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener noreferrer"
-                aria-label="Gmail">
-                <img src="https://leetcodr.github.io/homepage/images/2.png"
-                    alt="Gmail">
-            </a>
-            <h2 class="flex-apps_name">Gmail</h2>
+            <div class="flex-apps">
+                <a href="https://mail.google.com/mail/u/0/" target="_blank"
+                    rel="noopener noreferrer" aria-label="Gmail">
+                    <img src="https://leetcodr.github.io/homepage/images/2.png"
+                        alt="Gmail">
+                </a>
+                <h2 class="flex-apps_name">Gmail</h2>
+            </div>
+
+            <div class="flex-apps">
+                <a href="https://www.youtube.com/" target="_blank"
+                    rel="noopener noreferrer" aria-label="YouTube">
+                    <img src="https://leetcodr.github.io/homepage/images/8.png"
+                        alt="YouTube">
+                </a>
+                <h2 class="flex-apps_name">YouTube</h2>
+            </div>
+
+            <div class="flex-apps">
+                <a href="https://web.whatsapp.com/" target="_blank"
+                    rel="noopener noreferrer" aria-label="WhatsApp">
+                    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1280px-WhatsApp.svg.png"
+                        alt="WhatsApp">
+                </a>
+                <h2 class="flex-apps_name">WhatsApp</h2>
+            </div>
+
+            <div class="flex-apps">
+                <a href="https://github.com/" target="_blank"
+                    rel="noopener noreferrer" aria-label="GitHub">
+                    <img src="https://leetcodr.github.io/homepage/images/9.png"
+                        alt="GitHub">
+                </a>
+                <h2 class="flex-apps_name">GitHub</h2>
+            </div>
+
+            <div class="flex-apps">
+                <a href="https://chatgpt.com/" target="_blank"
+                    rel="noopener noreferrer" aria-label="ChatGPT">
+                    <img src="https://leetcodr.github.io/homepage/images/10.png"
+                        alt="ChatGPT">
+                </a>
+                <h2 class="flex-apps_name">ChatGPT</h2>
+            </div>
+
+            <div class="flex-apps">
+                <a href="https://www.linkedin.com/feed/" target="_blank"
+                    rel="noopener noreferrer" aria-label="LinkedIn">
+                    <img style="background-color: white;"
+                        src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                        alt="LinkedIn">
+                </a>
+                <h2 class="flex-apps_name">LinkedIn</h2>
+            </div>
+
+            <div class="flex-apps">
+                <a href="https://leetcode.com/" target="_blank"
+                    rel="noopener noreferrer" aria-label="LeetCode">
+                    <img src="https://leetcode.com/static/images/LeetCode_logo.png"
+                        alt="LeetCode">
+                </a>
+                <h2 class="flex-apps_name">LeetCode</h2>
+            </div>
+
+            <div class="flex-apps">
+                <a href="https://monkeytype.com/" target="_blank"
+                    rel="noopener noreferrer" aria-label="MonkeyType">
+                    <img src="https://raw.githubusercontent.com/monkeytype-hub/monkeytype-icon/master/monkeytype-icon/svg/serika_dark.svg"
+                        alt="MonkeyType">
+                </a>
+                <h2 class="flex-apps_name">MonkeyType</h2>
+            </div>
+
         </div>
-
-        <div class="flex-apps">
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
-                aria-label="YouTube">
-                <img src="https://leetcodr.github.io/homepage/images/8.png"
-                    alt="YouTube">
-            </a>
-            <h2 class="flex-apps_name">YouTube</h2>
-        </div>
-
-        <div class="flex-apps">
-            <a href="https://web.whatsapp.com//" target="_blank" rel="noopener noreferrer"
-                aria-label="WhatsApp">
-                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1280px-WhatsApp.svg.png"
-                    alt="WhatsApp">
-            </a>
-            <h2 class="flex-apps_name">WhatsApp</h2>
-        </div>
-
-        <div class="flex-apps">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
-                aria-label="GitHub">
-                <img src="https://leetcodr.github.io/homepage/images/9.png"
-                    alt="GitHub">
-            </a>
-            <h2 class="flex-apps_name">GitHub</h2>
-        </div>
-
-        <div class="flex-apps">
-            <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer"
-                aria-label="ChatGPT">
-                <img src="https://leetcodr.github.io/homepage/images/10.png"
-                    alt="ChatGPT">
-            </a>
-            <h2 class="flex-apps_name">ChatGPT</h2>
-        </div>
-
-        <div class="flex-apps">
-            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"
-                aria-label="LinkedIn">
-                <img style="background-color: white;"
-                    src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-                    alt="LinkedIn">
-            </a>
-            <h2 class="flex-apps_name">LinkedIn</h2>
-        </div>
-
-        <div class="flex-apps">
-            <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer"
-                aria-label="LeetCode">
-                <img src="https://leetcode.com/static/images/LeetCode_logo.png"
-                    alt="LeetCode">
-            </a>
-            <h2 class="flex-apps_name">LeetCode</h2>
-        </div>
-
-        <div class="flex-apps">
-            <a href="https://monkeytype.com/" target="_blank" rel="noopener noreferrer"
-                aria-label="MonkeyType">
-                <img src="https://raw.githubusercontent.com/monkeytype-hub/monkeytype-icon/master/monkeytype-icon/svg/serika_dark.svg"
-                    alt="MonkeyType">
-            </a>
-            <h2 class="flex-apps_name">MonkeyType</h2>
-        </div>
-
-    </div>
 
     </main>
 
     <!-- Cyberpunk logo -->
 
-    <!-- <div class="cyberpunk">
+    <!--
+    <div class="cyberpunk">
         <img src="https://purepng.com/public/uploads/large/purepng.com-cyberpunk-2077-logologosgame-logogame-logosgameslogocyberpunk-2077-12715289961328hlgr.png"
             alt="Cyberpunk 2077">
-    </div> -->
+    </div>
+    -->
 
     <script>
 
@@ -350,6 +342,7 @@
             const now = new Date();
 
             // Time
+
             const hours = now.getHours();
             const minutes = String(now.getMinutes()).padStart(2, '0');
 
@@ -360,6 +353,7 @@
                 `${String(formattedHours).padStart(2, '0')}:${minutes} ${ampm}`;
 
             // Date
+
             const dateOptions = {
                 weekday: 'long',
                 day: 'numeric',
@@ -371,9 +365,11 @@
         }
 
         // Initial update
+
         updateClock();
 
         // Update every second
+
         setInterval(updateClock, 1000);
 
     </script>
